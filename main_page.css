@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Futura";
+    src: url("/futura/Futura\ Round.ttf");
+}
+
+body {
+    background-color: #262626;
+    margin: 2vh 2vw;
+    cursor: default;
+}
+
+.navbar {
+    background-color: #444444;
+    justify-content: space-evenly;
+    display: flex;
+    overflow:scroll;
+    padding-left: 0;
+    border-radius: 50px;
+}
+
+.navbar li {
+    list-style-type: none;
+    float: left;
+    padding: 20px;
+}
+
+.navbar li a{
+    font-family:Futura;
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.navbar li:hover {
+    opacity: 0.6;
+}
+
